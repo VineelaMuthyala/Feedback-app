@@ -1,0 +1,62 @@
+.first-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+  background-color: white;
+
+  margin: 20px;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.unordered-list {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.emoji {
+  width: 50px;
+  height: 60px;
+}
+.name {
+  font-family: roboto;
+  font-size: 15px;
+  color: black;
+}
+.text {
+  font-family: 'roboto';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+}
